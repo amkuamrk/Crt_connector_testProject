@@ -8,9 +8,11 @@
   <value name="name">Crt_connector_testProject</value>
   <record name="startup_services" javaclass="com.wm.util.Values">
     <null name="wm.cloudstreams.crt_connector_test.Crt_connector_testProject.plm:registerProvider"/>
+    <null name="project.crt_connector_test.Crt_connector_testProject.plm:registerProvider"/>
   </record>
   <record name="shutdown_services" javaclass="com.wm.util.Values">
     <null name="wm.cloudstreams.crt_connector_test.Crt_connector_testProject.plm:unregisterProvider"/>
+    <null name="project.crt_connector_test.Crt_connector_testProject.plm:unregisterProvider"/>
   </record>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
@@ -20,13 +22,13 @@
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">5</value>
+  <value name="build">6</value>
   <null name="description"/>
   <value name="created_date">02-04-2026 03:45:40 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-04-02T04:16:11.087096652Z</value>
+  <value name="lastUpdated">2026-04-02T05:14:09.302875204Z</value>
   <value name="wmProjectId">flb878f5ed24f14a1599a609b988a3f430</value>
   <value name="creator">CloudStreams Administrator</value>
   <null name="publisher"/>
